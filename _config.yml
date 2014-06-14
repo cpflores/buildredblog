@@ -9,6 +9,14 @@ url: "http://yourdomain.com"
 markdown: kramdown
 permalink: pretty
 
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: ia
+
 exclude: 
 - assets
 - readme.md 
